@@ -1,0 +1,34 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    background: #131313;
+}
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+h2 {
+    color: #ec8200;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+a {
+    background: #ec8200;
+    padding: 20px;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 1px #000 inset;
+}
+a:hover {
+    box-shadow: 3px 2px 2px 2px #000 inset;
+    transition: 0.5s;  /* Firefox 16+, Opera 12.50+ */
+}
+
+.json_data {
+    margin-top: 40px;
+    color: #ec8200;
+}
+
