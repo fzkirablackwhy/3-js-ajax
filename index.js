@@ -96,8 +96,8 @@ function init() {
     $('.link-post').click(evt => {
         post();
     });
-    let json_data = $('.json_data')
-    json_data.empty();
+    let jsonData = $('.json_data')
+    jsonData.empty();
 }
 init()
 
